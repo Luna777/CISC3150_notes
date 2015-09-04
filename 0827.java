@@ -10,9 +10,9 @@ boolean bool= 20%2==0; //this is ok, 但最好不要这样写
 -------------
 declear any constant variable, put final in front of it.
 and make sure your constant is all UPPERCASE.
-    ex: final int ABC=5;
+    	ex: final int ABC=5;
 declear a class file, all the first letter should be UPPERCASE.
-    ex: public class MyClassFile
+	ex: public class MyClassFile
 method/function name is like: myNewFunction()
 variable name is all lowercase.
 -------------
@@ -22,7 +22,33 @@ in command line tool use:
 去run一个java程序
 -------------
 ex:
+		long y=Interger.MAX_VALUE + 1;
+		System.out.println(y);
+--output: -2147483648
+--------------
+		long y=Interger.MAX_VALUE;
+		System.out.println(y);
+--output: 2147483648 
+---------------
 		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
